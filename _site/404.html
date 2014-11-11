@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!--[if lte IE 9]><meta http-equiv="refresh" content="0;url=/ie.html"><![endif]-->
 
-    <title>{{ page.title }}</title>
+    <title>404 Not Found Error</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -38,16 +38,20 @@
         </form>
 
         <nav id="pl__container">
-        {% for post in site.posts %}
-          <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%b %Y" }}</span></a>
-        {% endfor %}
+        
+          <a class="java pl__all" href="/java/2014/11/12/welcome-to-jekyll.html"><span class="pl__circle"></span><span class="pl__title">测试数据!</span><span class="pl__date">Nov 2014</span></a>
+        
+          <a class="jekyllupdate pl__all" href="/jekyll/update/2014/11/11/welcome-to-jekyll.html"><span class="pl__circle"></span><span class="pl__title">Welcome to Jekyll!</span><span class="pl__date">Nov 2014</span></a>
+        
         </nav>
       </div> <!-- end #posts-list -->
     </aside> <!-- end #sidebar -->
 
     <div id="post">
       <div id="pjax">
-        {{ content }}
+        <article id="post__content">
+  <h1 id="post__title">404 Not Found Error</h1>
+</article> <!-- end #post__content -->
       </div> <!-- end #pjax -->
 
       <div id="post__toc-trigger">
