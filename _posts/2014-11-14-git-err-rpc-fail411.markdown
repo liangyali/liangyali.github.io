@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Error,RPC Fail result=22, HTTP code = 411!"
 date:   2014-11-14 15:03:18
-categories: git
+categories: ruby
 ---
 
 今天使用Git的过程中，遇到了下面的问题
