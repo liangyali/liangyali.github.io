@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitError"
+title:  "Git Error,RPC Fail result=22, HTTP code = 411!"
 date:   2014-11-14 15:03:18
 categories: ruby
 ---
